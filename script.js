@@ -14,7 +14,6 @@ const screen = document.querySelector('.screen');
 function buttonClick(value){
     if(isNaN(value)){
         handleSymbol(value);
-        alert('vc apertou uma operação')
     }else{
         handleNumber(value);
     }
