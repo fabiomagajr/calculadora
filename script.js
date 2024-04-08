@@ -82,10 +82,10 @@ function flushOperation(intBuffer){
 function handleNumber(numberString){
     if(buffer==='0'){
         buffer=numberString;
-        alert('digitou um numero e acionou o handleNumber');
+        
     }else{
         buffer+=numberString;
-        alert('digitou um numero e acionou mais um numero ao handleNumber');
+       
     }
 }
 function init(){
